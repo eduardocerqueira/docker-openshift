@@ -1,4 +1,4 @@
-FROM python:2.7-slim
+FROM python:2.7
 MAINTAINER "Eduardo Cerqueira" eduardomcerqueira@gmail.com
 WORKDIR /usr/src/app
 COPY requirements.txt ./
