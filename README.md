@@ -27,8 +27,12 @@ firefox http://127.0.0.1:8080/
 Openshift
 ```
 oc login https://api.starter-us-east-1.openshift.com --token=*************
-oc new-project docker-openshift
+oc new-app https://github.com/eduardocerqueira/docker-openshift 
+```
 
+aux commands
+```
+oc delete all -l app=docker-openshift
 ```
 
 
