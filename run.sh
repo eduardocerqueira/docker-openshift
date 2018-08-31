@@ -1,0 +1,1 @@
+gunicorn --config gunicorn.conf --log-config logging.conf app:app
